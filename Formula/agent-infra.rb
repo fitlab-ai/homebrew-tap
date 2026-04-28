@@ -1,8 +1,8 @@
 class AgentInfra < Formula
   desc "Bootstrap tool for AI multi-tool collaboration infrastructure"
   homepage "https://github.com/fitlab-ai/agent-infra"
-  url "https://registry.npmjs.org/@fitlab-ai/agent-infra/-/agent-infra-0.5.7.tgz"
-  sha256 "c96fe50035fce9a174326302eda40d78720deaa30cdf47cb3cc802fd2dbcffb7"
+  url "https://registry.npmjs.org/@fitlab-ai/agent-infra/-/agent-infra-0.5.8.tgz"
+  sha256 "b55194b8fbec23a48cb9f8dd3683cbe27376e2817ba8eb52d35fda3e295631af"
   license "MIT"
 
   depends_on "node"
