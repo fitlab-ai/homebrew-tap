@@ -1,14 +1,14 @@
 class AgentInfra < Formula
   desc "Bootstrap tool for AI multi-tool collaboration infrastructure"
   homepage "https://github.com/fitlab-ai/agent-infra"
-  url "https://registry.npmjs.org/@fitlab-ai/agent-infra/-/agent-infra-0.11.1.tgz"
-  sha256 "f09b44963e2044b3dcf02fb81118294a4fcf50fd6244d3ab3e6c637889fadcca"
+  url "https://registry.npmjs.org/@fitlab-ai/agent-infra/-/agent-infra-0.11.2.tgz"
+  sha256 "35ed1b0f54045f47268ae72bf95947414220da956b75403b21bbc2248dc60821"
   license "MIT"
   bottle do
-    root_url "https://github.com/fitlab-ai/agent-infra/releases/download/v0.11.1"
-    sha256 cellar: :any, arm64_tahoe:   "f6ca6b3db63d64f2756f3f6a8e368969b69aa8758f35042d6310812fe7021bc4"
-    sha256 cellar: :any, arm64_sequoia: "59f7fd402d14c79a965e207f778206bbe76faf9ed8f155d357ad7e6ad6c96010"
-    sha256 cellar: :any, arm64_sonoma:  "a15f581510d9eb34f7f201caee2960afd411794978dd3ec60f06b90a94ee50b4"
+    root_url "https://github.com/fitlab-ai/agent-infra/releases/download/v0.11.2"
+    sha256 cellar: :any, arm64_tahoe:   "5e1e5a040d104ada3a976131b7b0b7c12ecd98899e765eb84c16582c3b671024"
+    sha256 cellar: :any, arm64_sequoia: "be46ae22a0be5b0cac712069507bc1d7862f71e5f78d1ed02ae575831e530a86"
+    sha256 cellar: :any, arm64_sonoma:  "d03d8e720fce58abdd2d5e7bd7707079b53df2fd94a8083c884d2a035f9b611b"
   end
 
   depends_on "node"
